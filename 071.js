@@ -8,8 +8,7 @@ qa['youwanttodisplaythedateforthefirstmondayofthenextmonthandissuethefollowingco
 qa['viewtheexhibitandexaminethedatainempanddepttables.inthedepttable,deptnoistheprimarykey.intheemptable,empnoistheprimarykeyanddeptnoistheforeignkeyreferencingthedeptnocolumninthedepttable.whatwouldbetheoutcomeofthefollowingstatementsexecutedinthegivensequence?droptableemp;flashbacktableemptobeforedrop;insertintoempvalues(2,'scott',10);insertintoempvalues(3,'king',55);']=['onlythefirstinsertstatementwouldsucceedbecauseallconstraintsexcepttheprimarykeyconstraintareautomaticallyretrievedafteratableisflashedback.']
 qa['whichstatementistrueregardingtheintersectoperator?']=['reversingtheorderoftheintersectedtablesalterstheresult.']
 qa['whichthreestatementsindicatetheendofatransaction?(choosethree.)']=['afteracreatestatementisissued','afteraselectstatementisissued','afteracommitisissued']
-"qa['youneedtoallowuserandrewto:1.modifythetitleandaddresscolumnsofyourcustomerstable.2.grantthatpermissiontootherusers.whichstatementwilldothis?
-']=['grantupdate(title,address)oncustomerstoandrewwithgrantoption;']"
+qa['youneedtoallowuserandrewto:1.modifythetitleandaddresscolumnsofyourcustomerstable.2.grantthatpermissiontootherusers.whichstatementwilldothis?']=['grantupdate(title,address)oncustomerstoandrewwithgrantoption;']
 qa['whichthreearetrueaboutmultitableinsertstatements?']=['theycanbeperformedonexternaltablesusingsql*loader.','theycaninserteachcomputedrowintomorethanonetable.','theycanbeperformedonrelationaltables.']
 qa['examinethestructureoftheprogramstable:whichtwosqlstatementswouldexecutesuccessfully?']=['selectnvl(months_between(start_date,end_date),'ongoing')fromprograms;','selectto_date(nvl(sysdate-end_date,sysdate))fromprograms;']
 qa['viewtheexhibitandexaminethestructureoftheproductstable.youmustdisplaythecategorywiththemaximumnumberofitems.youissuethisquery:whatistheresult?']=['itexecutessuccessfullyandgivesthecorrectoutput.']
